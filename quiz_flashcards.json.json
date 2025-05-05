@@ -1,0 +1,454 @@
+{
+  "CL2 Seal Pots": [
+    {
+      "question": "Where do they relieve?",
+      "answer": "To the Emergency Vent Scrubber (EVS) at +/- 2 \u00bd water column."
+    },
+    {
+      "question": "Purpose of the Seal Pots?",
+      "answer": "To protect the diaphragms in the Cell Room from overpressure and heavy vacuum."
+    },
+    {
+      "question": "What happens if they don\u2019t relieve?",
+      "answer": "If they don\u2019t relieve it will cause a positive water column in the Seal Pots which will cause them to pressure up the and blow the seal to the EVS."
+    },
+    {
+      "question": "What is your concern about pulling air into the CL2 system?",
+      "answer": "The Elliott Compressor do not compress air, could cause surging, decrease liquefaction capacity."
+    },
+    {
+      "question": "What is the concern with O2 in the system?",
+      "answer": "Dangerous to the LaPorte process (explosive) or environmental issues due to incinerator trips."
+    }
+  ],
+  "CL2 Cooling": [
+    {
+      "question": "What are the materials of the Wet Gas Cooler/Chiller made of?",
+      "answer": "Vertically mounted with Titanium tube sheets and fiberglass heads."
+    },
+    {
+      "question": "What is your concern with using titanium?",
+      "answer": "What conditions could we get dry Cl2 gas to the chillers and what to do to address it  Titanium and dry chlorine can cause a chlorine/steel fire. If a circuit is down dry chlorine could get back through the system. To address it we isolate valves on the Drying Towers and turn on the Brinks Wash/ or Hot Condensate on top of the W/G Chiller to wet the tubes."
+    },
+    {
+      "question": "What is your concern with High exit temperature out of the Cooler?",
+      "answer": "None. Verify cooling tower water flow."
+    },
+    {
+      "question": "What is your concern with low exit temperature out of the cooler?",
+      "answer": "May be too much cooling tower water flow, may need to cut back on the CTW flow."
+    },
+    {
+      "question": "What is your concern with Low exit temperature coming out of the Chiller?",
+      "answer": "Below 52 degrees chlorine hydrates will form in the Chiller causing pluggage issues. This can cause chlorine header to backpressure."
+    },
+    {
+      "question": "What is the concern with High exit temperature out of the Chiller?",
+      "answer": "It can result in high exit temperature in the cl2 gas exiting the chiller. This can cause High acid usage in the Drying Towers and can result in elevated moisture moisture exiting the Drying Towers. Moisture will increase the D/T operating temperature. Should increase Strong Acid makeup to the D/T to compensate for moisture."
+    }
+  ],
+  "Cl2 Condensate System": [
+    {
+      "question": "What are some options if one chlorine condensate pump will not start and the other pump is not keeping up?",
+      "answer": "Can use the #2 Neutralized condensate pump."
+    },
+    {
+      "question": "What is the (MOC) Material of Construction of the Stripper?",
+      "answer": "Cl2 Condensate Stripper is made of Titanium with ceramic saddle packing."
+    },
+    {
+      "question": "Why do we use HCL/Steam?",
+      "answer": "To help liberate the Chlorine from the Chlorine Condensate."
+    }
+  ],
+  "Wet Brinks Demister": [
+    {
+      "question": "What is the purpose?",
+      "answer": "It has an upside down P-Trap to maintain a seal in the Wet Brinks to keep the chlorine gas from bypassing its filters. It filters out any salt or entrained solids, or cell putty and other debris."
+    }
+  ],
+  "EVS ( Emergency Vent Scrubber)": [
+    {
+      "question": "What is the normal operating scheme?",
+      "answer": "#1 EVS pump continuously running circulating 16-18% caustic to the bottom/middle section spargers at approximately 2,400-2,600gpm."
+    },
+    {
+      "question": "What happens when the EVS activates?",
+      "answer": "The second pump kicks on. The solenoid valve open and caustic is discharged to the top, middle, and bottom section spargers."
+    },
+    {
+      "question": "What parameters \u201cactivate\u201d the EVS?",
+      "answer": "1. Cl2 Monitors, 2. Temperature going from the Seal Pots to the EVS, 3. Temperature inside the EVS, 4. Sum of all spargers, and 5. Header Pressure."
+    },
+    {
+      "question": "What happens if we lose caustic circulation?",
+      "answer": "All circuits in the Cell Room will trip."
+    },
+    {
+      "question": "What are the low limits for caustic strength in the EVS?",
+      "answer": "5%-16%."
+    },
+    {
+      "question": "What happens if caustic is batched too low/high?",
+      "answer": "Too low won\u2019t neutralize chlorine capacity properly. Too high could create salt precipitation problems and plug up the spargers."
+    },
+    {
+      "question": "What is the capacity of the EVS?",
+      "answer": "8 minutes full load (1680); 7 minutes half load (840); 12 minutes timer after 12 minutes trips circuits in Cell Room."
+    }
+  ],
+  "Drying Towers": [
+    {
+      "question": "What is the purpose/ why do we dry chlorine?",
+      "answer": "We dry chlorine so that it can be handled in the carbon steel piping."
+    },
+    {
+      "question": "What is the concern if the bottom section strength is low/high?",
+      "answer": "Too low will cause elevated moisture exiting the Drying Towers with subsequent corrosion of carbon steel piping and equipment downstream. Too high will cause additional acid consumption (cost effective) and could cause damage to the Spent Acid storage tanks."
+    },
+    {
+      "question": "How does the acid get from one section to the next?",
+      "answer": "It flows by gravity."
+    },
+    {
+      "question": "What is the worst air leak before or after the Drying Tower?",
+      "answer": "After, it could get dry chlorine wet and cause corrosion in equipment and piping."
+    },
+    {
+      "question": "What are the indications that the chlorine is being dried properly?",
+      "answer": "The temperature exiting the drying towers, moisture monitors at the Elliotts, good acid strength and circulation in drying towers. Explain how to take a section out of service. The bottom section must be above 85% to ensure adequate drying. Shut off the pump of the section that is being taken out of service (top/middle) and swap strong acid makeup."
+    },
+    {
+      "question": "Where does most of the drying take place, and what are the acid strengths in each section?",
+      "answer": "Most of the drying happens in the bottom section. The acid strengths for each section are, the Bottom section 68-70%; Middle section 90-92%; Top section 96-98%."
+    }
+  ],
+  "Dry Brinks": [
+    {
+      "question": "What is the purpose?",
+      "answer": "To reduce Suction Chiller and Cl2 compressor (Elliotts) pluggage issues. Forms a liquid seal to ensure we don\u2019t bypass the filters."
+    },
+    {
+      "question": "Why do we batch with acid?",
+      "answer": "Acid carryover from the drying towers anything else could cause damage."
+    },
+    {
+      "question": "What does high delta p indicate?",
+      "answer": "Pluggage."
+    },
+    {
+      "question": "What does low delta p indicate?",
+      "answer": "Seal problems or Brinks element problems."
+    }
+  ],
+  "Suction Chillers": [
+    {
+      "question": "What is the purpose?",
+      "answer": "To cool the chlorine gas from the drying tower and to offset the heat of compression and to scrub any impurities from the chlorine and collect the organics NCl3."
+    },
+    {
+      "question": "Why do we dump/purge liquid chlorine?",
+      "answer": "To prevent buildup of NCl3. What is the concern with NCl3/action level. NCl3 is very explosive. 10ppm in Weigh Tanks; 1000ppm in Suction Chillers."
+    },
+    {
+      "question": "Where else in the system do we accumulate NCl3?",
+      "answer": "In the Suction Chillers; Weigh Tanks; Railcars; and anywhere liquid chlorine can flash off and leave NCl3 behind."
+    }
+  ],
+  "Cooling Tower Water Sump": [
+    {
+      "question": "What is the purpose of the CTW sump?",
+      "answer": "So that the things with atmospheric drains have some place to dump."
+    },
+    {
+      "question": "What if we see low pH in the sump?",
+      "answer": "What are the possible sources  The sump can be sampled. If low check the spent acid addition flow or could also be a tube leak in acid/ Chlorine Heat Exchangers."
+    },
+    {
+      "question": "What if we detect chlorine in the sump?",
+      "answer": "What are the possible sources  We could verify with Ammonia or Chlorine meter. Inner/Aftercooler or Pencil cooler."
+    }
+  ],
+  "Elliotts (Chlorine Compressors)": [
+    {
+      "question": "Purpose of the Inner Cooler?",
+      "answer": "To cool the gas after the 1st four stages of compression before going to the 5th and 6th stages."
+    },
+    {
+      "question": "Purpose of the After Cooler?",
+      "answer": "To help out the Liquefiers, but not mandatory to have."
+    },
+    {
+      "question": "What temperatures are we concerned with Chlorine/Steel fire?",
+      "answer": "400-450 degrees."
+    },
+    {
+      "question": "Where are the highest risks of a chlorine/steel fire?",
+      "answer": "In the first four stages of compression."
+    },
+    {
+      "question": "How many stages?",
+      "answer": "6 stage Centrifugal Compressor."
+    },
+    {
+      "question": "Why do we shut off water before we shut down the Elliott?",
+      "answer": "To keep water from getting in to the dry chlorine."
+    },
+    {
+      "question": "What is the purpose of the Oil Bladder?",
+      "answer": "To keep the oil circulating just in case the Elliotts trip."
+    },
+    {
+      "question": "What are possible causes for high moisture in the chlorine?",
+      "answer": "Leaks after the Drying Towers; weak acid strength in the Drying Towers; and acid circulation."
+    }
+  ],
+  "Yorks": [
+    {
+      "question": "What are the possible causes of high York discharge pressure?",
+      "answer": "It could be caused by pressure control system malfunction, insufficient condenser cooling tower water flow, fouled condenser tubes, and high cooling tower water temperature."
+    },
+    {
+      "question": "Maintenance has just replaced one of the York oil filters...any concerns about replacing and putting back into service?",
+      "answer": "Make sure that we have enough flow and that we are lined up to the right cooler."
+    },
+    {
+      "question": "Explain R12 flow/ where is it liquid and where is it vapor?",
+      "answer": ""
+    },
+    {
+      "question": "What is the purpose?",
+      "answer": "Liquefiers are used to Liquefy Chlorine gas; LKOD separates the liquid from the gas."
+    },
+    {
+      "question": "Do we liquefy more chlorine at high or low pressure?",
+      "answer": "Low Pressure."
+    },
+    {
+      "question": "As chlorine moves through the system does H2 concentration increase or decrease?",
+      "answer": ""
+    },
+    {
+      "question": "What actions are required for high H2 in chlorine?",
+      "answer": "Add dilution air."
+    },
+    {
+      "question": "Where do we add dilution air?",
+      "answer": "At the Pencil Cooler or at the Old/New Header."
+    },
+    {
+      "question": "How does chlorine get from the LKOD to the Weigh Tanks?",
+      "answer": "It flows by gravity."
+    },
+    {
+      "question": "What is Snift Gas?",
+      "answer": "What determines its composition   Snift Gas is chlorine that could not be compressed. Air leaks, things from the process/ Cell Room."
+    },
+    {
+      "question": "What component in Snift Gas affects LaPorte and how?",
+      "answer": "O2, it is explosive in their process."
+    }
+  ],
+  "Snift Gas": [
+    {
+      "question": "What is the purpose of the distance pieces?",
+      "answer": "To prevent the chlorine from getting in the atmosphere; and to prevent chlorine from getting into the oil system causing a chlorine oil fire."
+    },
+    {
+      "question": "What is the purpose of the Penn Cooler?",
+      "answer": "To let the temperature out of the Penn Compressor from 225 degrees to 100 degrees. Also, to aid the Snift Gas Chillers."
+    },
+    {
+      "question": "What is the purpose of the Snift Gas Chillers?",
+      "answer": "To try to get any extra liquid chlorine that was not captured in the liquefiers."
+    },
+    {
+      "question": "Why does chlorine liquefy in the Snift Gas Chillers?",
+      "answer": "It didn\u2019t liquefy in the Liquefiers. Because it is at a high pressure."
+    },
+    {
+      "question": "Where does chlorine gas exit the chillers, and where does the liquid chlorine exit?",
+      "answer": "The gas comes out the top, and the liquid comes out the bottom. Explain the Basic steps for swapping the Penn/ never dead head."
+    }
+  ],
+  "Liquid Chlorine Pipeline/ Piping": [
+    {
+      "question": "What is the concern about blocking in Liquid chlorine?",
+      "answer": "The concern is that it can flash off and expand rupturing piping and equipment."
+    },
+    {
+      "question": "What is the purpose of Expansion Tanks?",
+      "answer": "They provide gas space for liquid chlorine (Thermal Expansion)."
+    },
+    {
+      "question": "What is the purpose for the Lubrizol dump valve (HPR)?",
+      "answer": "The purpose is to protect Lubrizol from pressure swings. It opens up when the Lubrizol line pressure gets above 185 psig."
+    },
+    {
+      "question": "What are the basic steps for cleaning chlorine pipelines?",
+      "answer": "Shutdown the pumps and let them drain to the W/T; have it padded back to us or to the customer, and open the vacuum tank."
+    }
+  ],
+  "Nash Compressors": [
+    {
+      "question": "Why do we batch the Nash Separator?",
+      "answer": "To keep fresh acid in it, and to prevent acid from making a ring inside the Nash (Even Corrosion Rate)."
+    }
+  ],
+  "Storage": [
+    {
+      "question": "How is inventory measured?",
+      "answer": "Tons per day."
+    },
+    {
+      "question": "What tanks are used for what customers?",
+      "answer": "2,3 Covestro; 4,5 Deer Park VCM; 7,8 LaPorte VCM, Lubrizol."
+    },
+    {
+      "question": "How is pump seal designed?",
+      "answer": "Why Seal Air  Bayer (Covestro) and #7 are mechanical seal, others are packing gland. We use N2 because Special Dry Air (SDA) can\u2019t keep up."
+    },
+    {
+      "question": "What would be your indication if there is liquid chlorine in the vacuum tanks?",
+      "answer": "The indication will be that there is ice on the side of the tank. And it would have come from a customer line."
+    },
+    {
+      "question": "What is the concern about pumping weigh tank level too low?",
+      "answer": "What about spinning the pump backwards  It can cause chlorine/steel fire if pumps operate without any chlorine flow; and can cause pump damage."
+    }
+  ],
+  "Neutralizers": [
+    {
+      "question": "What is required to shutdown blower and/or scrubber pump?",
+      "answer": "We will need two Neutralizers and LPVCM has to be taking all of the Snift Gas."
+    },
+    {
+      "question": "What is the limit for low caustic strength in neutralizers and why?",
+      "answer": "As close to 1.1% as possible; if it is below 1% chlorine can break through and get into the atmosphere."
+    },
+    {
+      "question": "Why close the manual chlorine inlet to depleted neutralizer?",
+      "answer": "HIC's fail open; and to prevent chlorine from going back to depleted neutralizer and releasing."
+    },
+    {
+      "question": "What is the purpose of Catalyst?",
+      "answer": "To speed up the decomposition of hypos."
+    },
+    {
+      "question": "What is the purpose of Flocc?",
+      "answer": "To pull the catalyst to the bottom so that it doesn\u2019t get pulled all out."
+    },
+    {
+      "question": "What is the purpose of the piping loop?",
+      "answer": "To prevent the neutralizer from being pumped into the dry chlorine side."
+    },
+    {
+      "question": "What happens if you mix acidic solution with the neutralizer solution (undepleted)?",
+      "answer": "It will release the chlorine."
+    },
+    {
+      "question": "What would you do if your previous neutralizer strength was 8% and now you get a 1%?",
+      "answer": ""
+    },
+    {
+      "question": "What would be the possible cause for low After Scrubber strength?",
+      "answer": "A water valve leaking by."
+    }
+  ],
+  "pH Reliability": [
+    {
+      "question": "What goes in the pH Adjustment Tank?",
+      "answer": "The Sulfate Purge stream; Spent Acid."
+    },
+    {
+      "question": "What are possible reasons for high pH in the pH Reliability Tanks.. What can we do to correct it?",
+      "answer": "Alarm/ Analyzer malfunction; spent acid pump malfunction; valving error in the acid system; the sulfate purge flow may need to be cut back until adjustments are made by Evaporation; acid valve should be opened if the pH is low."
+    }
+  ],
+  "Chlorine/ Acid Loading": [
+    {
+      "question": "What are the parameters to trip off the chlorine loading system?",
+      "answer": "Scale must be on zero; tare weight on car must be within 500lbs of the scale weight; once valve is open psig for loading is 175-185psig."
+    },
+    {
+      "question": "Where are all the Emergency shutdown buttons?",
+      "answer": "At each of the loading spots on C track; at the derails on C track; North door at the Penn Compressor building; inside the door at Acid loading and unloading."
+    },
+    {
+      "question": "What should you do if you see a bad spot on the chlorine loading hose?",
+      "answer": "Do not load at all; write up a notification/work order."
+    },
+    {
+      "question": "What should you do if you see something attached to the top of a car?",
+      "answer": "Notify Shift Supervisor/Security."
+    },
+    {
+      "question": "What do you do if the seal numbers don\u2019t match on the chlorine cars?",
+      "answer": "Check Chem Track; and contact Janice or Julia"
+    },
+    {
+      "question": "How many tons are loaded in a Chlorine rail car?",
+      "answer": "90 tons (180,000 lbs)"
+    },
+    {
+      "question": "What is the max gross weight on RR?",
+      "answer": "63,000 lbs."
+    },
+    {
+      "question": "Why can\u2019t we load on C track?",
+      "answer": "No scale; Pressure strong to 25 psig doesn\u2019t allow pressure over 30 psig; at 22 psig LoLo pressure alarm will activate and close off air inlet auto; pressure below 30 psig on A track shuts off loading; if pressure falls below 80 psig when closing the chlorine loading valve the emergency shutoff will close."
+    },
+    {
+      "question": "What is the max for TT on the road?",
+      "answer": "80,000 lbs."
+    }
+  ],
+  "Maintenance": [
+    {
+      "question": "What are acceptable materials for liquid chlorine?",
+      "answer": "Carbon steel; must be approved for chlorine service; No Titanium."
+    },
+    {
+      "question": "How do we ensure chlorine equipment is oil/grease free?",
+      "answer": "Use a Black light; White glove test."
+    },
+    {
+      "question": "How do we ensure chlorine equipment is dry before placing it in chlorine service?",
+      "answer": "Bag it; check the dew point going in and out; needs to be a minimum of -40 and within 5 degrees of entry and exit dewpoint."
+    },
+    {
+      "question": "When isolating equipment do we isolate vacuum piping first or last?",
+      "answer": "Isolate it last just in case we need to pull it down."
+    },
+    {
+      "question": "What is required to weld on chlorine piping?",
+      "answer": "It needs to be isolated; depressured; and washed dry."
+    },
+    {
+      "question": "What is the concern with welding on equipment that has been in Sulfuric acid service?",
+      "answer": "It releases Hydrogen gas."
+    }
+  ],
+  "Utilities": [
+    {
+      "question": "What are your concerns if we lose Cooling Tower Water?",
+      "answer": "It will affect the Inner/Aftercoolers, and the Wet Gas Cooler."
+    },
+    {
+      "question": "What are your concerns with potable water loss?",
+      "answer": "Eyewash; Bathrooms; and Safety Showers."
+    },
+    {
+      "question": "What are your concerns if we lose Ind/CIWA?",
+      "answer": "What are suspects if we start losing air pressure  Start up the spare Joy."
+    },
+    {
+      "question": "Explain the flows through the Air Dryers. What does Dew Point represent?",
+      "answer": ""
+    },
+    {
+      "question": "If Air Dryers are not working, what is your biggest concern about wet air and how do you address this?",
+      "answer": "Getting moisture in the Dry Chlorine, Use N2 (Nitrogen) for backup>"
+    }
+  ]
+}
