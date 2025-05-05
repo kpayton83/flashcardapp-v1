@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Where do the CL2 seal pots relieve?",
+        "answer": "To the Emergency Vent Scrubber (EVS) at \u00b12.5\" water column."
+    },
+    {
+        "question": "What is the purpose of the CL2 seal pots?",
+        "answer": "To protect the diaphragms in the Cell Room from overpressure and heavy vacuum."
+    },
+    {
+        "question": "What happens if the CL2 seal pots don\u2019t relieve?",
+        "answer": "Positive pressure builds, leading to seal pots blowing to the EVS."
+    },
+    {
+        "question": "What is the concern about pulling air into the CL2 system?",
+        "answer": "The Elliott compressors can't compress air\u2014can cause surging and reduce liquefaction capacity."
+    },
+    {
+        "question": "What is the concern with O2 in the system?",
+        "answer": "It\u2019s explosive in the LaPorte process and causes environmental issues if incinerators trip."
+    }
+]
