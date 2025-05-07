@@ -139,5 +139,7 @@ if st.session_state.submitted and st.session_state.index == total_questions - 1:
 # 🔬 Animation Placeholder (future upgrade)
 # ----------------------------------------
 st.markdown("---")
-st.image("nacl_animation.gif", caption="Electrolysis of Brine: NaCl + H₂O → Cl₂ + NaOH + H₂")
+if st.checkbox("🎞️ Show NaCl Electrolysis Animation"):
+    st.image("nacl_animation.gif", caption="Electrolysis of Brine: NaCl + H₂O → Cl₂ + NaOH + H₂")
+
 
