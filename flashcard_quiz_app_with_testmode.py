@@ -136,10 +136,11 @@ if st.session_state.submitted and st.session_state.index == total_questions - 1:
             st.experimental_set_query_params(section=new_section)
 
 # ----------------------------------------
-# 🔬 Animation Placeholder (future upgrade)
+# 🔬 Animation Placeholder (Button version)
 # ----------------------------------------
 st.markdown("---")
-if st.checkbox("🎞️ Show NaCl Electrolysis Animation"):
-    st.image("nacl_animation.gif", caption="Electrolysis of Brine: NaCl + H₂O → Cl₂ + NaOH + H₂")
+if st.button("🎞️ Show NaCl Electrolysis Animation"):
+    st.image("nacl_process_diagram.png", caption="Chlorine Production from Brine (Diagram)")
+    st.image("nacl_animation.gif", caption="Electrolysis of NaCl Animation (Autoplaying GIF)")
 
 
